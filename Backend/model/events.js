@@ -25,6 +25,10 @@ const eventSchema = new mongoose.Schema({
     ref: "User",
     required: true,
   },
+  image: {
+    type: String,
+    required: true,
+  },
   tags: [String],
   createdAt: {
     type: Date,

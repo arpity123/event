@@ -8,6 +8,8 @@ router.post("/add", upload.single("image"), addEvent);
 
 // update event
 
+// create api to get the events
+
 // get events
 
 // delete event --> you all will do
